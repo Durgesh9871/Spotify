@@ -1,0 +1,1 @@
+This is clone of spotify app, Here you can listen music, There are only two music which you can play. If you want you can add more .
