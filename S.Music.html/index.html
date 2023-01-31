@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+     
+    <link rel="stylesheet" href="./index.css">
+
+</head>
+
+<body>
+    <nav class="navigationBar">
+        <ul>
+            <li class="brand"><img src="spotify.img.jpg" alt="spotify">Spotify</li>
+            <li>Home</li>
+            
+        </ul>
+    </nav>
+    <div class="container">
+
+
+        <div class="songlist">
+            <h1>Best of spotify- no copyright sounds</h1>
+            <div>
+                <div class="songName"><img alt="1">
+                    <span class="sName">Lut Gaye</span>
+                    <span class="duration">
+                        <span class="time">3:48 <i id='1' class="fas songItemPlay fa-play-circle"></i></span>
+                    </span>
+
+                </div>
+                <div class="songName"><img alt="1">
+                    <span class="sName">Lut Gaye</span>
+                    <span class="duration">
+                        <span class="time">3:48 <i id='2' class="fas songItemPlay fa-play-circle"></i></span>
+                    </span>
+                </div>
+
+                <div class="songName"><img alt="1">
+                    <span class="sName">Lut Gaye</span>
+                    <span class="duration">
+                        <span class="time">5:30 <i id='1' class="fas songItemPlay fa-play-circle"></i></span>
+                    </span>
+
+                </div>
+
+
+                <div class="songName"><img alt="1">
+                    <span class="sName">Lut Gaye</span>
+                    <span class="duration">
+                        <span class="time">3:48 <i id="2" class="fas songItemPlay fa-play-circle"></i></span>
+                    </span>
+
+                </div>
+
+
+
+
+            </div>
+
+        </div>
+        <div class="songbanner"></div>
+    </div>
+    <div class="bottom">
+        <input type="range" id="myProgressBar" min="0" max="100" value="0">
+        <div class="icons">
+            <!-- fontAwesomeIcon -->
+            <div class="rotate"> <i class="fas fa-2x fa-play-circle" id='previous'></i> </div>
+            <i class="far fa-2x fa-play-circle" id='masterPlay'></i>
+            <i class="fas fa-2x fa-play-circle" id='next'></i>
+        </div>
+        <div class="musicGif"><img src="musicGif.gif" alt="" id="gif"> <span id="masterSongName">Lut Gaye</span></div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/329c5758e7.js" crossorigin="anonymous"></script>
+  
+   <script src="./index.js"></script>
+</body>
+
+
+</html>

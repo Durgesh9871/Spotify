@@ -1,0 +1,147 @@
+
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;1,300&display=swap');
+
+ * {
+     margin: 0;
+     padding: 0;
+ }
+
+ body {
+     background-color: antiquewhite;
+ }
+
+ .brand img {
+     height: 5vh;
+     margin: 1vh 0;
+
+
+ }
+
+ .brand {
+     display: flex;
+     align-items: center;
+     font-weight: bolder;
+     font-size: 1rem;
+     /* padding-left: 12vh; */
+ }
+
+ .navigationBar {
+     font-family: 'Merriweather', serif;
+     background-color: black;
+     color: white;
+
+ }
+
+ .navigationBar ul {
+     display: flex;
+     align-items: center;
+     height: 8vh;
+
+ }
+
+ .navigationBar ul li {
+     list-style: none;
+     padding: 0 2vw;
+
+
+ }
+
+ h1 {
+     text-transform: capitalize;
+ }
+
+ #myProgressBar {
+     width: 75vw;
+     cursor: pointer;
+
+ }
+
+ .bottom {
+     background-color: black;
+     position: sticky;
+     height: 9vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: white;
+     flex-direction: column;
+
+ }
+
+ .container {
+     display: flex;
+     min-height: 76vh;
+     background-color: black;
+     color: black;
+     font-family: 'Merriweather', serif;
+     margin: 1.5vh auto;
+     width: 75vw;
+     border-radius: 3vh;
+     padding: 1vw;
+     background-image: url("spotifyBackgroung.img.jpg");
+     background-size: 100vw 100vh;
+
+ }
+
+ .rotate {
+     transform: rotate(304deg);
+     display: inline-block;
+ }
+
+ .icons {
+     margin: 1vh 0;
+
+ }
+
+ .icons i {
+     cursor: pointer;
+ }
+
+ .songName img {
+     width: 6vw;
+     border-radius: 34vh;
+ }
+
+ .songName {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin: 1.5vh 0;
+     padding-right: 1vw;
+     height: 6.8vh;
+     background-color: white;
+     color: black;
+     font-weight: bolder;
+     width: 19vw;
+     border: 2px solid black;
+     border-radius: 34px;
+ }
+
+ .duration time {
+     display: flex;
+     align-items: center;
+ }
+
+ .time i {
+     cursor: pointer;
+
+
+
+ }
+
+ .musicGif {
+     text-transform: capitalize;
+     position: absolute;
+     left: 12vw;
+     bottom: 1vh;
+ }
+
+ .musicGif img {
+     width: 4vw;
+     opacity: 0;
+     transition: opacity 0.5 ease-in;
+
+
+
+ }
